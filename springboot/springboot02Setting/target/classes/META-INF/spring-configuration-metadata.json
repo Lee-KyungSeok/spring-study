@@ -1,0 +1,890 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.kyung.KyungProperties",
+      "name": "kyung",
+      "type": "com.kyung.KyungProperties"
+    },
+    {
+      "sourceType": "com.kyung.SpringInitApplication",
+      "name": "server",
+      "sourceMethod": "serverProperties()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.compression",
+      "sourceMethod": "getCompression()",
+      "type": "org.springframework.boot.web.server.Compression"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.compression",
+      "sourceMethod": "getCompression()",
+      "type": "org.springframework.boot.web.server.Compression"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.error",
+      "sourceMethod": "getError()",
+      "type": "org.springframework.boot.autoconfigure.web.ErrorProperties"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.error",
+      "sourceMethod": "getError()",
+      "type": "org.springframework.boot.autoconfigure.web.ErrorProperties"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties",
+      "name": "server.error.whitelabel",
+      "sourceMethod": "getWhitelabel()",
+      "type": "org.springframework.boot.autoconfigure.web.ErrorProperties$Whitelabel"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties",
+      "name": "server.error.whitelabel",
+      "sourceMethod": "getWhitelabel()",
+      "type": "org.springframework.boot.autoconfigure.web.ErrorProperties$Whitelabel"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.http2",
+      "sourceMethod": "getHttp2()",
+      "type": "org.springframework.boot.web.server.Http2"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.http2",
+      "sourceMethod": "getHttp2()",
+      "type": "org.springframework.boot.web.server.Http2"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.jetty",
+      "sourceMethod": "getJetty()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.jetty",
+      "sourceMethod": "getJetty()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty",
+      "name": "server.jetty.accesslog",
+      "sourceMethod": "getAccesslog()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.servlet",
+      "sourceMethod": "getServlet()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Servlet"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.servlet",
+      "sourceMethod": "getServlet()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Servlet"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Servlet",
+      "name": "server.servlet.jsp",
+      "sourceMethod": "getJsp()",
+      "type": "org.springframework.boot.web.servlet.server.Jsp"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Servlet",
+      "name": "server.servlet.session",
+      "sourceMethod": "getSession()",
+      "type": "org.springframework.boot.web.servlet.server.Session"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session",
+      "name": "server.servlet.session.cookie",
+      "sourceMethod": "getCookie()",
+      "type": "org.springframework.boot.web.servlet.server.Session$Cookie"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session",
+      "name": "server.servlet.session.cookie",
+      "sourceMethod": "getCookie()",
+      "type": "org.springframework.boot.web.servlet.server.Session$Cookie"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.ssl",
+      "sourceMethod": "getSsl()",
+      "type": "org.springframework.boot.web.server.Ssl"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.ssl",
+      "sourceMethod": "getSsl()",
+      "type": "org.springframework.boot.web.server.Ssl"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.tomcat",
+      "sourceMethod": "getTomcat()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.tomcat",
+      "sourceMethod": "getTomcat()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.accesslog",
+      "sourceMethod": "getAccesslog()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Accesslog"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.resource",
+      "sourceMethod": "getResource()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Resource"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.undertow",
+      "sourceMethod": "getUndertow()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.undertow",
+      "sourceMethod": "getUndertow()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow",
+      "name": "server.undertow.accesslog",
+      "sourceMethod": "getAccesslog()",
+      "type": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow$Accesslog"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.kyung.KyungProperties",
+      "defaultValue": 0,
+      "name": "kyung.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.kyung.KyungProperties",
+      "name": "kyung.full-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kyung.KyungProperties",
+      "name": "kyung.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kyung.KyungProperties",
+      "name": "kyung.sesstion-timeout",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.address",
+      "type": "java.net.InetAddress"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.address",
+      "type": "java.net.InetAddress"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.excluded-user-agents",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.excluded-user-agents",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.mime-types",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.mime-types",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.min-response-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Compression",
+      "name": "server.compression.min-response-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.connection-timeout",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.connection-timeout",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties",
+      "name": "server.error.include-exception",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties",
+      "name": "server.error.include-exception",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties",
+      "name": "server.error.include-stacktrace",
+      "type": "org.springframework.boot.autoconfigure.web.ErrorProperties$IncludeStacktrace"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties",
+      "name": "server.error.include-stacktrace",
+      "type": "org.springframework.boot.autoconfigure.web.ErrorProperties$IncludeStacktrace"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties",
+      "name": "server.error.path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties",
+      "name": "server.error.path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ErrorProperties$Whitelabel",
+      "name": "server.error.whitelabel.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Http2",
+      "name": "server.http2.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Http2",
+      "name": "server.http2.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty",
+      "name": "server.jetty.acceptors",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.append",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.date-format",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.extended-format",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.file-date-format",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.filename",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.locale",
+      "type": "java.util.Locale"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.log-cookies",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.log-latency",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.log-server",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.retention-period",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty$Accesslog",
+      "name": "server.jetty.accesslog.time-zone",
+      "type": "java.util.TimeZone"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty",
+      "name": "server.jetty.max-http-post-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Jetty",
+      "name": "server.jetty.selectors",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.max-http-header-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.max-http-header-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.server-header",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.server-header",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Servlet",
+      "name": "server.servlet.application-display-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Servlet",
+      "name": "server.servlet.context-parameters",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Servlet",
+      "name": "server.servlet.context-path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Jsp",
+      "name": "server.servlet.jsp.class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Jsp",
+      "name": "server.servlet.jsp.class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Jsp",
+      "name": "server.servlet.jsp.init-parameters",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Jsp",
+      "name": "server.servlet.jsp.init-parameters",
+      "type": "java.util.Map<java.lang.String,java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Jsp",
+      "name": "server.servlet.jsp.registered",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Jsp",
+      "name": "server.servlet.jsp.registered",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Servlet",
+      "name": "server.servlet.path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session$Cookie",
+      "name": "server.servlet.session.cookie.comment",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session$Cookie",
+      "name": "server.servlet.session.cookie.domain",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session$Cookie",
+      "name": "server.servlet.session.cookie.http-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session$Cookie",
+      "name": "server.servlet.session.cookie.max-age",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session$Cookie",
+      "name": "server.servlet.session.cookie.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session$Cookie",
+      "name": "server.servlet.session.cookie.path",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session$Cookie",
+      "name": "server.servlet.session.cookie.secure",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session",
+      "name": "server.servlet.session.persistent",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session",
+      "name": "server.servlet.session.persistent",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session",
+      "name": "server.servlet.session.store-dir",
+      "type": "java.io.File"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session",
+      "name": "server.servlet.session.store-dir",
+      "type": "java.io.File"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session",
+      "name": "server.servlet.session.timeout",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session",
+      "name": "server.servlet.session.timeout",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session",
+      "name": "server.servlet.session.tracking-modes",
+      "type": "java.util.Set<org.springframework.boot.web.servlet.server.Session.SessionTrackingMode>"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.servlet.server.Session",
+      "name": "server.servlet.session.tracking-modes",
+      "type": "java.util.Set<org.springframework.boot.web.servlet.server.Session.SessionTrackingMode>"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.ciphers",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.ciphers",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.client-auth",
+      "type": "org.springframework.boot.web.server.Ssl$ClientAuth"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.client-auth",
+      "type": "org.springframework.boot.web.server.Ssl$ClientAuth"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.enabled-protocols",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.enabled-protocols",
+      "type": "java.lang.String[]"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-alias",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-alias",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store-provider",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store-provider",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.key-store-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.protocol",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.protocol",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store-password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store-provider",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store-provider",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.web.server.Ssl",
+      "name": "server.ssl.trust-store-type",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.accept-count",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Accesslog",
+      "name": "server.tomcat.accesslog.buffered",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Accesslog",
+      "name": "server.tomcat.accesslog.directory",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Accesslog",
+      "name": "server.tomcat.accesslog.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Accesslog",
+      "name": "server.tomcat.accesslog.file-date-format",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Accesslog",
+      "name": "server.tomcat.accesslog.pattern",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Accesslog",
+      "name": "server.tomcat.accesslog.prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Accesslog",
+      "name": "server.tomcat.accesslog.rename-on-rotate",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Accesslog",
+      "name": "server.tomcat.accesslog.request-attributes-enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Accesslog",
+      "name": "server.tomcat.accesslog.rotate",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Accesslog",
+      "name": "server.tomcat.accesslog.suffix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.additional-tld-skip-patterns",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.background-processor-delay",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.basedir",
+      "type": "java.io.File"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.internal-proxies",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.max-connections",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.max-http-header-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.max-http-post-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.max-threads",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.min-spare-threads",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.port-header",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.protocol-header",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.protocol-header-https-value",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.redirect-context-root",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.remote-ip-header",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat$Resource",
+      "name": "server.tomcat.resource.cache-ttl",
+      "type": "java.time.Duration"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.uri-encoding",
+      "type": "java.nio.charset.Charset"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Tomcat",
+      "name": "server.tomcat.use-relative-redirects",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow$Accesslog",
+      "name": "server.undertow.accesslog.dir",
+      "type": "java.io.File"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow$Accesslog",
+      "name": "server.undertow.accesslog.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow$Accesslog",
+      "name": "server.undertow.accesslog.pattern",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow$Accesslog",
+      "name": "server.undertow.accesslog.prefix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow$Accesslog",
+      "name": "server.undertow.accesslog.rotate",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow$Accesslog",
+      "name": "server.undertow.accesslog.suffix",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow",
+      "name": "server.undertow.buffer-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow",
+      "name": "server.undertow.direct-buffers",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow",
+      "name": "server.undertow.eager-filter-init",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow",
+      "name": "server.undertow.io-threads",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow",
+      "name": "server.undertow.max-http-post-size",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties$Undertow",
+      "name": "server.undertow.worker-threads",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.use-forward-headers",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "org.springframework.boot.autoconfigure.web.ServerProperties",
+      "name": "server.use-forward-headers",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
