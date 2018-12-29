@@ -1,0 +1,11 @@
+2018-10-11 17:22:29.510  INFO 73454 --- [main] com.kyung.SpringInitApplication          : Starting SpringInitApplication on Coryui-MacBook-Pro.local with PID 73454 (/Users/kyung/Desktop/spring/springboot/springboot03Logging/target/classes started by kyung in /Users/kyung/Desktop/spring/springboot/springboot03Logging)
+2018-10-11 17:22:29.512 DEBUG 73454 --- [main] com.kyung.SpringInitApplication          : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-10-11 17:22:29.514  INFO 73454 --- [main] com.kyung.SpringInitApplication          : No active profile set, falling back to default profiles: default
+2018-10-11 17:22:29.553  INFO 73454 --- [main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@59d2400d: startup date [Thu Oct 11 17:22:29 KST 2018]; root of context hierarchy
+2018-10-11 17:22:30.238  INFO 73454 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-10-11 17:22:30.254  INFO 73454 --- [main] com.kyung.SpringInitApplication          : Started SpringInitApplication in 1.331 seconds (JVM running for 2.215)
+2018-10-11 17:22:30.255 DEBUG 73454 --- [main] com.kyung.SampleRunner                   : ==============================
+2018-10-11 17:22:30.255 DEBUG 73454 --- [main] com.kyung.SampleRunner                   : hello
+2018-10-11 17:22:30.255 DEBUG 73454 --- [main] com.kyung.SampleRunner                   : ==============================
+2018-10-11 17:22:30.256  INFO 73454 --- [Thread-1] s.c.a.AnnotationConfigApplicationContext : Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@59d2400d: startup date [Thu Oct 11 17:22:29 KST 2018]; root of context hierarchy
+2018-10-11 17:22:30.258  INFO 73454 --- [Thread-1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown

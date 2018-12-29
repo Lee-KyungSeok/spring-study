@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 로그 커스터마이징 -->
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <logger name="com.kyung" level="DEBUG"/>
+    <!-- Logback extension 사용법
+            - 프로파일 <springProfile name=”프로파일”>
+            - Environment 프로퍼티 <springProperty>
+      -->
+
+    <!-- 참고> 로거를 Log4j2 바꾸려면 dependency 에서 로거를 지우고 Log4j2 를 사용하면 된다. -->
+</configuration>
